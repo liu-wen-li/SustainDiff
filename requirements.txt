@@ -1,0 +1,29 @@
+torch==2.8.0
+torchvision==0.23.0
+
+diffusers==0.35.1
+transformers==4.57.0
+accelerate==1.10.1
+peft==0.17.1
+safetensors==0.6.2
+huggingface-hub==0.35.3
+datasets==4.1.1
+
+numpy==1.26.4
+pandas==2.3.3
+Pillow==11.3.0
+scipy==1.16.2
+scikit-learn==1.7.2
+tqdm==4.67.1
+opencv-python>=4.7
+
+torch-fidelity==0.3.0
+lpips==0.1.4
+torchmetrics==1.8.2
+
+matplotlib==3.10.6
+tensorboard==2.20.0
+
+bitsandbytes==0.48.1
+# xformers    # optional: --enable_xformers_memory_efficient_attention
+# wandb       # optional: --report_to wandb
